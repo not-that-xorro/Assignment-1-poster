@@ -1,0 +1,87 @@
+@font-face {
+    font-family: rdr;
+    src: url(./chinese\ rocks\ rg.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-image: url(./three-cowboys-at-sunset-in-the-wild-west-desktop-wallpaper.jpg);
+    background-size: cover;
+    position: relative;
+    font-family: rdr;
+}
+
+.brand{
+    font-size: 35px;
+    font-weight: 600;
+    margin-left: 15px;
+    padding-top: 22px;
+}
+
+.brand2{
+    font-size: 25px;
+}
+
+.title1{
+    font-size: 207px;
+}
+
+.title2{
+    font-size: 167px;
+}
+
+.mainTitle{
+    padding-left: 530px;
+    padding-top: 153px;
+    line-height: 0.8;
+    
+}
+
+.title3{
+    font-size: 390px;
+    position: absolute;
+    left: 1287px;
+    bottom: 370px;
+    text-shadow: 4px 9px 2px black;
+    color: #ff8902;
+}
+
+.btn{
+    padding: 15px 55px;
+    font-size: 30px;
+    font-family: rdr;
+    font-weight: 750;
+    background-color: #ff8902;
+    border: 2px solid rgb(247, 116, 9);
+    border-radius: 5%;
+    box-shadow: 5px 5px;
+    position: absolute;
+    left: 533px;
+    top: 520px;
+}
+
+.image1{
+    height: 100px;
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+}
+
+.image2{
+    height: 175px;
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+}
